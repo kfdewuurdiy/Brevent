@@ -5,7 +5,7 @@
 echo "[*] Digite o código de 6 dígitos mostrado no celular:"
 read PAIR_CODE
 
-echo "[*] Pareando com o dispositivo via porta 3700 ..."
+echo "[*] Pareando com o dispositivo na porta 3700 ..."
 adb pair localhost:3700 $PAIR_CODE
 
 echo "[*] Conectando ao dispositivo na porta 5555 ..."
